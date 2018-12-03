@@ -73,7 +73,7 @@ time.Duration 是 int64 类型的别名，单位是纳秒。可以使用 time �
         conn.LocalAddr().NetWork()     ----->    返回所使用的协议名称
         conn.LocalAddr().String()      ----->    返回对应的网络地址
 
-    - SetDeadline、SetReadDeadline、SetWriteDeadline 方法
+- SetDeadline、SetReadDeadline、SetWriteDeadline 方法
 
     三个方法都接受一个 time.Time 类型的值作为参数，并返回一个 error 类型的值作为结果。
 
